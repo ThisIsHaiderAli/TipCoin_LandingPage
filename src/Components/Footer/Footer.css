@@ -1,0 +1,43 @@
+.footerMain{
+    background-color: #000;
+    overflow: hidden;
+}
+
+.line{
+    color: gray;
+}
+
+.footerLi{
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.social_icon{
+    color: #fff;
+    font-size: 25px;
+}
+
+.footerLi{
+    margin: 0px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.footer_upper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 3rem 0px;
+}
+
+.social{
+    border-radius: 50%;
+    padding: 10px;
+}
+.social:hover{
+    border-radius: 50%;
+    padding: 10px;
+    background-color: rgb(53, 53, 53);
+}

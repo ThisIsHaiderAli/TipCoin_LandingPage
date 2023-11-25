@@ -1,0 +1,84 @@
+.getSrt {
+  background-color: #000;
+  padding: 4rem 0px;
+  border-top: 0.5px solid gray;
+  overflow: hidden;
+}
+
+.getTitle {
+  color: #fff;
+  font-family: "IBM Plex Mono", monospace;
+  text-align: center;
+}
+
+.getP1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: "IBM Plex Mono", monospace;
+}
+.getP2 {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.startDetail {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.listMain {
+  display: flex;
+  justify-content: center;
+}
+
+.startLiUpper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.css-vubbuv {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.startButnUpper {
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+}
+
+.startButn {
+  background-color: #fff;
+  color: #000;
+  border-radius: 40px;
+  width: 40%;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.startButn:hover {
+  background-color: rgb(178, 178, 178);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px,
+    rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+
+@media only screen and (max-width:600px) {
+    .startButn {
+        width: 80%;
+    }
+}

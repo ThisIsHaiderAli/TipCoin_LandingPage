@@ -1,0 +1,66 @@
+.headr{
+    background-color: rgb(18, 18, 18);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 15px 27px;
+    font-family: 'IBM Plex Mono', monospace;
+    position: fixed;
+}
+
+.site_title{
+    line-height: 1.167;
+    font-size: 22px;
+    font-weight: 900;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.stats_buttn{
+    background-color: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    border-radius: 37px;
+    padding: 4px 10px ;
+}
+.stats_buttn:hover{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.login_button{
+    padding: 2px 9px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 37px;
+    font-weight: 500;
+    font-size: 0.8125rem;
+    line-height: 1.75;
+    text-transform: uppercase;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+}
+.login_button:hover{
+    color: #000;
+    background-color: rgb(178, 178, 178);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px -1px, rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px;
+}
+
+.headerInner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sitle_title_Upper{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+}
+
+
+@media only screen and (max-width:600px) {
+    .headr{
+        padding: 10px 12px;
+    }
+}
